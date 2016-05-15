@@ -1,3 +1,247 @@
-h1 {
-    color: red;
+
+body {
+    background-color: #DADADA;
+}
+
+.container {
+/*    background-color: azure;*/
+    width: 1123px;
+    height: auto;
+/*    border: 3px solid #c1c1c1; #cccccc*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.informtable {
+    height: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    float:left;
+    background-color: white;
+    border-radius: 4px;
+    width: 765px;
+
+}
+
+.resulttable {
+    float:left;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 4px;
+    width: 333px;
+    height: auto;
+    margin-left: 25px
+}
+
+.input_section{
+    margin:auto;
+    padding: 14px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.info_section {
+/*    margin-top:-19px;*/
+/*    font-size: 16px;*/
+}
+
+form {
+    margin:auto;
+    padding: 3px;
+    display:inline;
+
+}
+
+.input_product {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+}
+
+.add_product {
+    background-color: #2185D0;
+    color: #FFF;
+    width: 115px;
+    margin-left: -5px;
+    padding: 10px;
+    border: 1px solid #2185D0;
+    border-radius: 0 3px 3px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add_product:hover{
+    background-color: #1678c2;
+    cursor: pointer;
+}
+
+.product{
+    margin:auto;
+    padding: 7px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c1c1c1;
+    font-size:14px;
+    height: 25px;
+}
+
+.name_product {
+    margin:auto;
+    padding: 7px;
+    font-size:14px;
+    float:left;
+}
+
+.count_control {
+    width:475px;
+    float:right;
+}
+
+.count_lbl {
+    padding: 7px 10px 7px 10px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right:2px;
+}
+
+.round_btn {
+    width: 31px;
+    height: 31px;
+    margin-right:3px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.round_btn:hover {
+    background-color:
+}
+
+.decrement_btn {
+    background-color: #DB2828;
+    color: #FFF;
+    box-shadow: 0 2.5px 0 #c12e09;
+}
+
+.decrement_banned_btn {
+    background-color: #DB2828;
+    color: #FFF;
+    box-shadow: 0 2.5px 0 #c12e09;
+    opacity: 0.5;
+}
+
+.decrement_btn:hover {
+    background-color: #d01919;
+    cursor: pointer;
+}
+
+.increment_btn {
+    background-color: #21BA45;
+/*    #16ab39*/
+    color: #FFF;
+    box-shadow: 0 2.5px 0 #0d8909;
+}
+
+.increment_btn:hover {
+    background-color: #16ab39;
+    cursor: pointer;
+}
+
+.del_btn {
+    width: 33px;
+    height: 31px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+    font-weight: bold;
+    background-color: #DB2828;
+/*    #d01919;*/
+    color: #FFF;
+    box-shadow: 0 1.5px 0 #c12e09;
+    border-radius: 4px;
+    border: 0px solid #E1E2E3;
+    float:right;
+}
+
+.del_btn:hover {
+    background-color: #d01919;
+    cursor: pointer;
+}
+
+.buy_btn {
+    width: 90px;
+    height: 31px;
+    font-size:11px;
+    background-color:#F2F2F2;
+    border-radius: 3px;
+    border: 1px solid #E1E2E3;
+    border-bottom: 1px solid #cfcfd0;
+    box-shadow: 0 2px 0 #cfcfd0;
+    float:right;
+}
+
+.buy_btn:hover {
+    background-color:#c6c7c8;
+    cursor: pointer;
+}
+
+.left {
+    width: 331px;
+    height: 51px;
+    font-size: 15px;
+    padding: 1px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+h3 {
+    width:125px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.count_products {
+    width:auto;
+    height:auto;
+    padding: 14px 14px 14px 14px;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.bought {
+    display: inline-block;
+    height: 10px;
+    background-color: #e8e8e8;
+    color: #5e5e5e;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 6px;
+    padding-bottom:12px;
+    border-radius: 3px;
+
+    margin-top: 3px;
+
+
+}
+
+.title {
+    margin-top: 5px
+}
+
+.orng_circ_count {
+    width: 17px;
+    height: 17px;
+    font-size: 9px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    border-radius: 16px;
+    background-color: #ff8101;
+    padding:0px 0 0 0;
+}
+
+.stats-bought {
+    width:auto;
+    min-height: 30px;
 }

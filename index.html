@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <title>My Page</title>
 
-
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h1>Hello World</h1>
+    <div class = "container">
+        <div class = "informtable">
+            <div class = "input_section">
+                <form>
+                    <input type="text" class = "input_product" placeholder = "Назва товару" >
+                    <input type = "submit" class = "add_product" value  = "Додати">
+<!--                    <button class = "add_pr">Додати</button>-->
+                </form>
+            </div>
+            <div class = "product">
+                <div class="name_product">Печиво</div>
+                <div class="count_control">
+                    <button class="round_btn decrement_btn">-</button>
+                    <span class="count_lbl">2</span>
+                    <button class="round_btn increment_btn">+</button>
+
+                    <button class="del_btn">х</button>
+                    <button class="buy_btn">Куплено</button>
+                </div>
+            </div>
+            <div class = "product">
+                <div class="name_product">Шоколад "Millenium"</div>
+                <div class="count_control">
+                    <button class="round_btn decrement_btn">-</button>
+                    <span class="count_lbl">2</span>
+                    <button class="round_btn increment_btn">+</button>
+
+                    <button class="del_btn">х</button>
+                    <button class="buy_btn">Куплено</button>
+                </div>
+            </div>
+            <div class = "product">
+                <div class="name_product">Морозиво</div>
+                <div class="count_control">
+                    <button class="round_btn decrement_banned_btn">-</button>
+                    <span class="count_lbl">1</span>
+                    <button class="round_btn increment_btn">+</button>
+
+                    <button class="del_btn">х</button>
+                    <button class="buy_btn">Куплено</button>
+                </div>
+            </div>
+        </div>
+
+        <div class = "resulttable">
+            <div class = "info_section">
+                <div class="left"><h3>Залишилось</h3></div>
+                <div class="count_products">
+                    <span class="bought">
+                        <span class="title">Печиво</span>
+                        <button class="orng_circ_count">2</button>
+                    </span>
+                    <span class="bought">
+                        <span class="title">Шоколад "Millenium"</span>
+                        <button class="orng_circ_count">2</button>
+                    </span>
+                    <span class="bought">
+                        <span class="title">Морозиво</span>
+                        <button class="orng_circ_count">1</button>
+                    </span>
+                </div>
+                <div class="left"><h3>Куплено</h3></div>
+                <div class="stats-bought"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
