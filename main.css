@@ -126,11 +126,23 @@ form {
     box-shadow: 0 2.5px 0 #c12e09;
 }
 
+<<<<<<< HEAD
+/*.decrement_banned_btn {
+=======
 .decrement_banned_btn {
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
     background-color: #DB2828;
     color: #FFF;
     box-shadow: 0 2.5px 0 #c12e09;
     opacity: 0.5;
+<<<<<<< HEAD
+}*/
+
+.decrement_btn:disabled {
+  border: none;
+  opacity: 0.5;
+=======
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
 }
 
 .decrement_btn:hover {
@@ -205,8 +217,14 @@ h3 {
 .count_products {
     width:auto;
     height:auto;
+<<<<<<< HEAD
+/*    padding: 7px 0px 7px 0px;*/
+    border-bottom: 1px solid #c1c1c1;
+
+=======
     padding: 14px 14px 14px 14px;
     border-bottom: 1px solid #c1c1c1;
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
 }
 
 .bought {
@@ -220,8 +238,12 @@ h3 {
     padding-bottom:12px;
     border-radius: 3px;
 
+<<<<<<< HEAD
+    margin: 7px 7px 7px 7px;
+=======
     margin-top: 3px;
 
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
 
 }
 
@@ -235,7 +257,11 @@ h3 {
     font-size: 9px;
     color: #fff;
     font-weight: bold;
+<<<<<<< HEAD
+    border: none;
+=======
     border: 0;
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
     border-radius: 16px;
     background-color: #ff8101;
     padding:0px 0 0 0;
@@ -245,3 +271,23 @@ h3 {
     width:auto;
     min-height: 30px;
 }
+<<<<<<< HEAD
+
+.boughted-text-style {
+  text-decoration: line-through;
+}
+
+.display-none {
+  display: none;
+}
+
+.centered {
+  margin-left: 39px;
+}
+
+.noBorder {
+    border: none;
+    font-size: 14px;
+}
+=======
+>>>>>>> 176cd5eb2fac26ba8abdce0b059f1b98dd39c9e5
